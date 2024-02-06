@@ -1,0 +1,25 @@
+.header{
+    margin-top: -30px;
+    width: 100%;
+    height: 100px;
+    background: rgba(131, 131, 131, 0.43);
+    &_logo{
+        font-size: 25px;
+        padding-top: 25px;
+        padding-left: 30px;
+        color: white;
+        &_navBar{
+            cursor: pointer;
+            display: flex;
+            column-gap: 15px;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            margin-top: -50px;
+            font-size: 20px;
+        }
+    }
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
